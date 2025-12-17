@@ -1,0 +1,19 @@
+# Trailing slashes
+/recipes /recipes/ 301
+/about /about/ 301
+/contact /contact/ 301
+/privacy /privacy/ 301
+
+# Legacy/alternate URLs
+/categories /recipes/ 301
+/categories/* /recipes/ 301
+/recipe/* /recipes/:splat 301
+
+# Social shortcuts
+/pinterest https://pinterest.com/homerecipeblog 302
+/instagram https://instagram.com/homerecipeblog 302
+/facebook https://facebook.com/homerecipeblog 302
+
+# Common misspellings
+/recipies/* /recipes/:splat 301
+/receipes/* /recipes/:splat 301

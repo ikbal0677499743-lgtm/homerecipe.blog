@@ -1,0 +1,31 @@
+# robots.txt for homerecipe.blog
+
+User-agent: *
+Allow: /
+
+# Pinterest - Welcome!
+User-agent: Pinterest
+Allow: /
+Crawl-delay: 1
+
+User-agent: Pinterestbot
+Allow: /
+Crawl-delay: 1
+
+# Search Engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://homerecipe.blog/sitemap.xml
+
+# Disallow
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
